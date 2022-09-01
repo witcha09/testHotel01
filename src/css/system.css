@@ -1,0 +1,83 @@
+.highlightdiv div:hover{background-color:gray;}
+
+.row.highlight:hover > * {
+    background-color: #FAFAFA;
+}
+
+.boxCard {
+    border-radius: 8px;
+    background-color: white;
+  }
+
+  .box {
+    width:100%;
+    height:200px;
+    background:#FFF;
+    margin:10px auto;
+  }
+
+  .effect4
+  {
+    position: relative;
+  }
+
+  .effect1{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+  }
+ 
+  .effect4:after
+ {
+   z-index: -1;
+   position: absolute;
+   content: "";
+   bottom: 15px;
+   right: 10px;
+   left: auto;
+   width: 50%;
+   top: 80%;
+   max-width:300px;
+   background: #777;
+   -webkit-box-shadow: 0 15px 10px #777;
+   -moz-box-shadow: 0 15px 10px #777;
+   box-shadow: 0 15px 10px #777;
+   -webkit-transform: rotate(3deg);
+   -moz-transform: rotate(3deg);
+   -o-transform: rotate(3deg);
+   -ms-transform: rotate(3deg);
+   transform: rotate(3deg);
+ }
+
+.effect6
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 1px , 0 0 1px #403f3f inset;
+       -moz-box-shadow:0 1px 1px , 0 0 1px #403f3f inset;
+            box-shadow:0 1px 1px , 0 0 1px #403f3f inset;
+}
+.effect6:before, .effect6:after
+{
+  content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px #0F0F0F;
+    -moz-box-shadow:0 0 20px #0F0F0F;
+    box-shadow:0 0 20px #0F0F0F;
+    top: 20%;
+    bottom:0;
+    left:5px;
+    right:5px;
+    -moz-border-radius:20px / 5px;
+    border-radius:20px / 5px;
+}
+.effect6:after
+{
+  right:5px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
